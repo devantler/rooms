@@ -11,7 +11,63 @@
 		0A8F6BE9275BC8C200C32AC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6BE8275BC8C200C32AC8 /* ContentView.swift */; };
 		0A8F6BEB275BC8C300C32AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F6BEA275BC8C300C32AC8 /* Assets.xcassets */; };
 		0A8F6BEE275BC8C300C32AC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F6BED275BC8C300C32AC8 /* Preview Assets.xcassets */; };
+		0A8F6C21275BCD9200C32AC8 /* RoomsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C20275BCD9200C32AC8 /* RoomsStore.swift */; };
+		0A8F6C23275BCE5A00C32AC8 /* RoomsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C22275BCE5A00C32AC8 /* RoomsData.swift */; };
+		0A8F6C26275BCE9300C32AC8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C25275BCE9300C32AC8 /* Room.swift */; };
+		0A8F6C28275BD1E900C32AC8 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C27275BD1E900C32AC8 /* BookingView.swift */; };
+		0A8F6C2C275BD69D00C32AC8 /* RoomsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C2B275BD69D00C32AC8 /* RoomsView.swift */; };
+		0A8F6C2E275BD78E00C32AC8 /* RoomDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C2D275BD78E00C32AC8 /* RoomDetailView.swift */; };
+		0A8F6C30275BDD9900C32AC8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C2F275BDD9900C32AC8 /* Intents.intentdefinition */; };
+		0A8F6C39275BDE7C00C32AC8 /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F6BFB275BC96600C32AC8 /* Intents.framework */; };
+		0A8F6C3C275BDE7C00C32AC8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C3B275BDE7C00C32AC8 /* IntentHandler.swift */; };
+		0A8F6C43275BDE7C00C32AC8 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8F6C06275BC96700C32AC8 /* IntentsUI.framework */; };
+		0A8F6C46275BDE7C00C32AC8 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C45275BDE7C00C32AC8 /* IntentViewController.swift */; };
+		0A8F6C49275BDE7C00C32AC8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A8F6C47275BDE7C00C32AC8 /* MainInterface.storyboard */; };
+		0A8F6C4D275BDE7C00C32AC8 /* RoomsIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A8F6C42275BDE7C00C32AC8 /* RoomsIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A8F6C50275BDE7C00C32AC8 /* RoomsIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A8F6C38275BDE7C00C32AC8 /* RoomsIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A8F6C58275BDF9700C32AC8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C2F275BDD9900C32AC8 /* Intents.intentdefinition */; };
+		0A8F6C59275BDF9700C32AC8 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C2F275BDD9900C32AC8 /* Intents.intentdefinition */; };
+		0A8F6C5B275BE25000C32AC8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C3B275BDE7C00C32AC8 /* IntentHandler.swift */; };
+		0A8F6C5C275BE25000C32AC8 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C3B275BDE7C00C32AC8 /* IntentHandler.swift */; };
+		0A8F6C5D275BE25A00C32AC8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C25275BCE9300C32AC8 /* Room.swift */; };
+		0A8F6C5E275BE25A00C32AC8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C25275BCE9300C32AC8 /* Room.swift */; };
+		0A8F6C5F275BE26000C32AC8 /* RoomsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C20275BCD9200C32AC8 /* RoomsStore.swift */; };
+		0A8F6C60275BE26000C32AC8 /* RoomsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C20275BCD9200C32AC8 /* RoomsStore.swift */; };
+		0A8F6C61275BE26200C32AC8 /* RoomsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C22275BCE5A00C32AC8 /* RoomsData.swift */; };
+		0A8F6C62275BE26300C32AC8 /* RoomsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8F6C22275BCE5A00C32AC8 /* RoomsData.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A8F6C4B275BDE7C00C32AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8F6BDB275BC8C200C32AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8F6C41275BDE7C00C32AC8;
+			remoteInfo = RoomsIntentUI;
+		};
+		0A8F6C4E275BDE7C00C32AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A8F6BDB275BC8C200C32AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A8F6C37275BDE7C00C32AC8;
+			remoteInfo = RoomsIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A8F6C1B275BC96700C32AC8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A8F6C4D275BDE7C00C32AC8 /* RoomsIntentUI.appex in Embed App Extensions */,
+				0A8F6C50275BDE7C00C32AC8 /* RoomsIntent.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A8F6BE3275BC8C200C32AC8 /* Rooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +75,26 @@
 		0A8F6BE8275BC8C200C32AC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0A8F6BEA275BC8C300C32AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A8F6BED275BC8C300C32AC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A8F6BF4275BC8D100C32AC8 /* Rooms.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rooms.entitlements; sourceTree = "<group>"; };
+		0A8F6BFB275BC96600C32AC8 /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		0A8F6C06275BC96700C32AC8 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		0A8F6C20275BCD9200C32AC8 /* RoomsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsStore.swift; sourceTree = "<group>"; };
+		0A8F6C22275BCE5A00C32AC8 /* RoomsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsData.swift; sourceTree = "<group>"; };
+		0A8F6C25275BCE9300C32AC8 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		0A8F6C27275BD1E900C32AC8 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		0A8F6C2B275BD69D00C32AC8 /* RoomsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsView.swift; sourceTree = "<group>"; };
+		0A8F6C2D275BD78E00C32AC8 /* RoomDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailView.swift; sourceTree = "<group>"; };
+		0A8F6C2F275BDD9900C32AC8 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		0A8F6C38275BDE7C00C32AC8 /* RoomsIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoomsIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8F6C3B275BDE7C00C32AC8 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		0A8F6C3D275BDE7C00C32AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8F6C42275BDE7C00C32AC8 /* RoomsIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RoomsIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A8F6C45275BDE7C00C32AC8 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		0A8F6C48275BDE7C00C32AC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		0A8F6C4A275BDE7C00C32AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8F6C57275BDE8E00C32AC8 /* RoomsIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoomsIntent.entitlements; sourceTree = "<group>"; };
+		0A8F6C5A275BDFCF00C32AC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0AC8F95A275C0B730012332F /* RoomsIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoomsIntentUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +105,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A8F6C35275BDE7C00C32AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F6C39275BDE7C00C32AC8 /* Intents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8F6C3F275BDE7C00C32AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F6C43275BDE7C00C32AC8 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				0A8F6BE5275BC8C200C32AC8 /* Rooms */,
+				0A8F6C3A275BDE7C00C32AC8 /* RoomsIntent */,
+				0A8F6C44275BDE7C00C32AC8 /* RoomsIntentUI */,
+				0A8F6BFA275BC96600C32AC8 /* Frameworks */,
 				0A8F6BE4275BC8C200C32AC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				0A8F6BE3275BC8C200C32AC8 /* Rooms.app */,
+				0A8F6C38275BDE7C00C32AC8 /* RoomsIntent.appex */,
+				0A8F6C42275BDE7C00C32AC8 /* RoomsIntentUI.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +148,19 @@
 		0A8F6BE5275BC8C200C32AC8 /* Rooms */ = {
 			isa = PBXGroup;
 			children = (
+				0A8F6C5A275BDFCF00C32AC8 /* Info.plist */,
+				0A8F6BF4275BC8D100C32AC8 /* Rooms.entitlements */,
 				0A8F6BE6275BC8C200C32AC8 /* RoomsApp.swift */,
 				0A8F6BE8275BC8C200C32AC8 /* ContentView.swift */,
-				0A8F6BEA275BC8C300C32AC8 /* Assets.xcassets */,
+				0A8F6C27275BD1E900C32AC8 /* BookingView.swift */,
+				0A8F6C2B275BD69D00C32AC8 /* RoomsView.swift */,
+				0A8F6C2D275BD78E00C32AC8 /* RoomDetailView.swift */,
+				0A8F6C20275BCD9200C32AC8 /* RoomsStore.swift */,
+				0A8F6C22275BCE5A00C32AC8 /* RoomsData.swift */,
+				0A8F6C24275BCE8800C32AC8 /* Models */,
 				0A8F6BEC275BC8C300C32AC8 /* Preview Content */,
+				0A8F6BEA275BC8C300C32AC8 /* Assets.xcassets */,
+				0A8F6C2F275BDD9900C32AC8 /* Intents.intentdefinition */,
 			);
 			path = Rooms;
 			sourceTree = "<group>";
@@ -67,6 +173,44 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0A8F6BFA275BC96600C32AC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F6BFB275BC96600C32AC8 /* Intents.framework */,
+				0A8F6C06275BC96700C32AC8 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A8F6C24275BCE8800C32AC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F6C25275BCE9300C32AC8 /* Room.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A8F6C3A275BDE7C00C32AC8 /* RoomsIntent */ = {
+			isa = PBXGroup;
+			children = (
+				0A8F6C57275BDE8E00C32AC8 /* RoomsIntent.entitlements */,
+				0A8F6C3B275BDE7C00C32AC8 /* IntentHandler.swift */,
+				0A8F6C3D275BDE7C00C32AC8 /* Info.plist */,
+			);
+			path = RoomsIntent;
+			sourceTree = "<group>";
+		};
+		0A8F6C44275BDE7C00C32AC8 /* RoomsIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				0AC8F95A275C0B730012332F /* RoomsIntentUI.entitlements */,
+				0A8F6C45275BDE7C00C32AC8 /* IntentViewController.swift */,
+				0A8F6C47275BDE7C00C32AC8 /* MainInterface.storyboard */,
+				0A8F6C4A275BDE7C00C32AC8 /* Info.plist */,
+			);
+			path = RoomsIntentUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +221,52 @@
 				0A8F6BDF275BC8C200C32AC8 /* Sources */,
 				0A8F6BE0275BC8C200C32AC8 /* Frameworks */,
 				0A8F6BE1275BC8C200C32AC8 /* Resources */,
+				0A8F6C1B275BC96700C32AC8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0A8F6C4C275BDE7C00C32AC8 /* PBXTargetDependency */,
+				0A8F6C4F275BDE7C00C32AC8 /* PBXTargetDependency */,
 			);
 			name = Rooms;
 			productName = Rooms;
 			productReference = 0A8F6BE3275BC8C200C32AC8 /* Rooms.app */;
 			productType = "com.apple.product-type.application";
+		};
+		0A8F6C37275BDE7C00C32AC8 /* RoomsIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8F6C54275BDE7C00C32AC8 /* Build configuration list for PBXNativeTarget "RoomsIntent" */;
+			buildPhases = (
+				0A8F6C34275BDE7C00C32AC8 /* Sources */,
+				0A8F6C35275BDE7C00C32AC8 /* Frameworks */,
+				0A8F6C36275BDE7C00C32AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomsIntent;
+			productName = RoomsIntent;
+			productReference = 0A8F6C38275BDE7C00C32AC8 /* RoomsIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0A8F6C41275BDE7C00C32AC8 /* RoomsIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A8F6C51275BDE7C00C32AC8 /* Build configuration list for PBXNativeTarget "RoomsIntentUI" */;
+			buildPhases = (
+				0A8F6C3E275BDE7C00C32AC8 /* Sources */,
+				0A8F6C3F275BDE7C00C32AC8 /* Frameworks */,
+				0A8F6C40275BDE7C00C32AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomsIntentUI;
+			productName = RoomsIntentUI;
+			productReference = 0A8F6C42275BDE7C00C32AC8 /* RoomsIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +279,12 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					0A8F6BE2275BC8C200C32AC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					0A8F6C37275BDE7C00C32AC8 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					0A8F6C41275BDE7C00C32AC8 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -116,6 +303,8 @@
 			projectRoot = "";
 			targets = (
 				0A8F6BE2275BC8C200C32AC8 /* Rooms */,
+				0A8F6C37275BDE7C00C32AC8 /* RoomsIntent */,
+				0A8F6C41275BDE7C00C32AC8 /* RoomsIntentUI */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +319,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0A8F6C36275BDE7C00C32AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8F6C40275BDE7C00C32AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F6C49275BDE7C00C32AC8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +341,69 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8F6C28275BD1E900C32AC8 /* BookingView.swift in Sources */,
+				0A8F6C23275BCE5A00C32AC8 /* RoomsData.swift in Sources */,
+				0A8F6C2E275BD78E00C32AC8 /* RoomDetailView.swift in Sources */,
+				0A8F6C30275BDD9900C32AC8 /* Intents.intentdefinition in Sources */,
 				0A8F6BE9275BC8C200C32AC8 /* ContentView.swift in Sources */,
+				0A8F6C21275BCD9200C32AC8 /* RoomsStore.swift in Sources */,
+				0A8F6C5B275BE25000C32AC8 /* IntentHandler.swift in Sources */,
+				0A8F6C2C275BD69D00C32AC8 /* RoomsView.swift in Sources */,
 				0A8F6BE7275BC8C200C32AC8 /* RoomsApp.swift in Sources */,
+				0A8F6C26275BCE9300C32AC8 /* Room.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8F6C34275BDE7C00C32AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F6C5F275BE26000C32AC8 /* RoomsStore.swift in Sources */,
+				0A8F6C58275BDF9700C32AC8 /* Intents.intentdefinition in Sources */,
+				0A8F6C61275BE26200C32AC8 /* RoomsData.swift in Sources */,
+				0A8F6C3C275BDE7C00C32AC8 /* IntentHandler.swift in Sources */,
+				0A8F6C5D275BE25A00C32AC8 /* Room.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8F6C3E275BDE7C00C32AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8F6C59275BDF9700C32AC8 /* Intents.intentdefinition in Sources */,
+				0A8F6C60275BE26000C32AC8 /* RoomsStore.swift in Sources */,
+				0A8F6C62275BE26300C32AC8 /* RoomsData.swift in Sources */,
+				0A8F6C5C275BE25000C32AC8 /* IntentHandler.swift in Sources */,
+				0A8F6C5E275BE25A00C32AC8 /* Room.swift in Sources */,
+				0A8F6C46275BDE7C00C32AC8 /* IntentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A8F6C4C275BDE7C00C32AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8F6C41275BDE7C00C32AC8 /* RoomsIntentUI */;
+			targetProxy = 0A8F6C4B275BDE7C00C32AC8 /* PBXContainerItemProxy */;
+		};
+		0A8F6C4F275BDE7C00C32AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A8F6C37275BDE7C00C32AC8 /* RoomsIntent */;
+			targetProxy = 0A8F6C4E275BDE7C00C32AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A8F6C47275BDE7C00C32AC8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A8F6C48275BDE7C00C32AC8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A8F6BEF275BC8C300C32AC8 /* Debug */ = {
@@ -264,14 +525,18 @@
 		0A8F6BF2275BC8C300C32AC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rooms/Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rooms/Preview Content\"";
 				DEVELOPMENT_TEAM = F2NXL88V7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rooms/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to make bookings for rooms.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,14 +558,18 @@
 		0A8F6BF3275BC8C300C32AC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rooms/Rooms.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Rooms/Preview Content\"";
 				DEVELOPMENT_TEAM = F2NXL88V7B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rooms/Info.plist;
+				INFOPLIST_KEY_NSSiriUsageDescription = "Siri support is used to make bookings for rooms.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +582,110 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = niem94.Rooms;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A8F6C52275BDE7C00C32AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomsIntentUI/RoomsIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NXL88V7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoomsIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomsIntentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niem94.Rooms.RoomsIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8F6C53275BDE7C00C32AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomsIntentUI/RoomsIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NXL88V7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoomsIntentUI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomsIntentUI;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niem94.Rooms.RoomsIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A8F6C55275BDE7C00C32AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomsIntent/RoomsIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NXL88V7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoomsIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomsIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niem94.Rooms.RoomsIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A8F6C56275BDE7C00C32AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = RoomsIntent/RoomsIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NXL88V7B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoomsIntent/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomsIntent;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = niem94.Rooms.RoomsIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,6 +709,24 @@
 			buildConfigurations = (
 				0A8F6BF2275BC8C300C32AC8 /* Debug */,
 				0A8F6BF3275BC8C300C32AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8F6C51275BDE7C00C32AC8 /* Build configuration list for PBXNativeTarget "RoomsIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8F6C52275BDE7C00C32AC8 /* Debug */,
+				0A8F6C53275BDE7C00C32AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A8F6C54275BDE7C00C32AC8 /* Build configuration list for PBXNativeTarget "RoomsIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A8F6C55275BDE7C00C32AC8 /* Debug */,
+				0A8F6C56275BDE7C00C32AC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

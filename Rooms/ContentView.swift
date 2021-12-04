@@ -1,16 +1,21 @@
-//
-//  ContentView.swift
-//  Rooms
-//
-//  Created by Nikolai Emil Damm on 04/12/2021.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            BookingView()
+                .tabItem {
+                    Image(systemName: "plus")
+                    Text("Book room")
+                }
+
+            RoomsView()
+                .tabItem {
+                    Image(systemName: "list.bullet")
+                    Text("Available rooms")
+                }
+        }
     }
 }
 
